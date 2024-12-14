@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game OVER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nerko+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/my style.css">
+</head>
+
+<body>
+
+    <header class="">
+        <img src="./imges/wraper.png" alt="" class="w-100">
+    </header>
+
+    <nav id="navbar-scroll" class="navbar navbar-expand-lg position-sticky top-0 z-3 container py-2">
+        <div class="container">
+            <div class="d-flex logo align-items-center">
+                <h4 class="logo text-uppercase fw-bold ms-3">
+                    <img src="./imges/logo-sm.png" alt="Logo" class="logo-img">
+                    Game Reviews
+                </h4>
+            </div>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active text-uppercase" href=""
+                            data-category="mmorpg">mmorpg</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="" data-category="shooter">shooter</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="" data-category="sailing">sailing</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href=""
+                            data-category="permadeath">permadeath</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href=""
+                            data-category="superhero">superhero</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="" data-category="pixel">pixel</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home container" id="mmorpg">
+        <div class="inner-home position-relative">
+            <div class="row g-4 mt-3" id="games-list"></div>
+        </div>
+    </section>
+
+    <div id="loading-animation" class="loading-animation">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/games.js"></script>
+    <script src="./js/ui.js"></script>
+    <script src="./js/detailes.js"></script>
+
+</body>
+
+</html>
